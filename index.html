@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sleep now — Legal Documents</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+    background: radial-gradient(ellipse at top right, rgba(150, 60, 220, 0.25), transparent 60%),
+                radial-gradient(ellipse at bottom left, rgba(60, 180, 255, 0.15), transparent 60%),
+                linear-gradient(135deg, #05050e 0%, #10052a 45%, #1a0533 100%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .container { max-width: 640px; width: 100%; text-align: center; }
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #ff4dcc, #66b3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 20px rgba(255, 77, 204, 0.4);
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 3px;
+    margin: 32px 0 16px;
+    text-transform: uppercase;
+  }
+  .doc-grid { display: flex; flex-direction: column; gap: 12px; }
+  .doc-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(102, 179, 255, 0.25);
+    border-radius: 18px;
+    padding: 20px 24px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .doc-card:hover {
+    background: rgba(102, 179, 255, 0.1);
+    border-color: rgba(102, 179, 255, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(102, 179, 255, 0.2);
+  }
+  .doc-title { font-size: 16px; font-weight: 700; text-align: left; }
+  .doc-lang {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 1px;
+    font-family: "SF Mono", Menlo, monospace;
+    margin-top: 4px;
+  }
+  .arrow { font-size: 20px; color: rgba(255, 255, 255, 0.4); }
+  .doc-card:hover .arrow { color: #66b3ff; }
+  footer {
+    margin-top: 48px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  footer a { color: #66b3ff; text-decoration: none; }
+  @media (max-width: 480px) {
+    h1 { font-size: 36px; }
+    .doc-card { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Sleep now</h1>
+  <div class="subtitle">Nature · Loop · Legal</div>
+
+  <h2>日本語</h2>
+  <div class="doc-grid">
+    <a href="terms-ja.html" class="doc-card">
+      <div>
+        <div class="doc-title">利用規約</div>
+        <div class="doc-lang">TERMS OF SERVICE · JA</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a href="privacy-ja.html" class="doc-card">
+      <div>
+        <div class="doc-title">プライバシーポリシー</div>
+        <div class="doc-lang">PRIVACY POLICY · JA</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <h2>English</h2>
+  <div class="doc-grid">
+    <a href="terms-en.html" class="doc-card">
+      <div>
+        <div class="doc-title">Terms of Service</div>
+        <div class="doc-lang">TERMS · EN</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a href="privacy-en.html" class="doc-card">
+      <div>
+        <div class="doc-title">Privacy Policy</div>
+        <div class="doc-lang">PRIVACY · EN</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <footer>
+    © 2026 Rio Naruse · <a href="mailto:steplife.contact@gmail.com">Contact</a>
+  </footer>
+</div>
+</body>
+</html>
